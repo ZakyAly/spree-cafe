@@ -111,7 +111,7 @@ li a:hover {
   height: 400px;
   margin: 0 20px;
   border-radius: 6px;
-  box-shadow: 10px 5px 5px #0095b363;
+  /* box-shadow: 10px 5px 5px #0095b363; */
 }
 
 .read-btn {
@@ -122,4 +122,26 @@ li a:hover {
 .title-style {
   display: flex;
   align-items: center;
+}
+.title {
+  font-size: 3rem;
+  color: #fff;
+  /* transform: translateX(-100px); */
+}
+/* .line {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  transform: translateX(-120px);
+} */
+
+.section-content p {
+  max-width: 500px;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 20px;
+  margin: 20px 0;
+}
+.read-more-text {
+  display: none;
 }
