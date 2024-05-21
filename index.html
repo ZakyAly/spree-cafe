@@ -11,10 +11,10 @@
       <nav>
         <h1 class="logo">Spree Café</h1>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -23,11 +23,12 @@
       <h1 class="primary-heading">GET YOUR COFFEE</h1>
       <button class="order-btn">Order Now</button>
     </header>
-    <section id="story">
-      <div class="img-container"><div class="img"></div></div>
+    <section class="main-sections" id="story">
+      <div class="img-container">
+        <img class="img" src="./imges/story-img.jpg" alt="" />
+      </div>
       <div class="section-content">
         <div class="title-style">
-          <!-- <span class="line"></span> -->
           <h1 class="title">Café Story</h1>
         </div>
         <p>
@@ -48,9 +49,122 @@
             respite.
           </span>
         </p>
-        <button class="read-btn" onclick="readMore()">Read more...</button>
+        <button class="read-btn">Read more...</button>
       </div>
     </section>
+    <section class="main-sections" id="#coffee-place">
+      <div class="section-content">
+        <div class="title-style">
+          <h1 class="title">
+            Perfect Place <br />
+            To Enjoy Your <br />
+            Coffee
+          </h1>
+        </div>
+        <p>
+          Coffee offers a wide array of tastes and drinks, catering to every
+          preference. Espresso, intense and rich, forms the base of many coffee
+          drinks. Lattes and cappuccinos blend espresso with steamed milk,
+          <span class="read-more-dots">...</span>
+          <span class="read-more-text">
+            creating smooth, creamy experiences. Cold brew, with its slow steep,
+            is mellow and refreshing. Light roasts have bright, fruity notes,
+            while dark roasts are deep and smoky. Pour-over methods highlight
+            the beans' nuanced flavors. Coffee, whether black or with additions,
+            provides endless enjoyment. respite.
+          </span>
+        </p>
+        <button class="read-btn">Read more...</button>
+      </div>
+      <div class="img-container">
+        <img class="img" src="./imges/coffee-beans.jpg" alt="" />
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <!-- <div class="img-container">
+        <img class="img" id="menu-img" src="./imges/menu-list.jpg" alt="" />
+      </div> -->
+      <h1 class="title">Menü</h1>
+      <section class="cards">
+        <div class="card">
+          <div class="card-img">
+            <img src="./imges/cappuccino.jpg" alt="" />
+          </div>
+          <div class="card-title">
+            <h1>Cappuccino</h1>
+          </div>
+          <div class="items">
+            <p>Espresso</p>
+            <p>Steamed Milk</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./imges/latte-macchiato.jpg" alt="" />
+          </div>
+          <div class="card-title">
+            <h1>Latte Macchiato</h1>
+          </div>
+          <div class="items">
+            <p>Espresso</p>
+            <p>Steamed Milk</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./imges/mocha.jpg" alt="" />
+          </div>
+          <div class="card-title">
+            <h1>Mocha</h1>
+          </div>
+          <div class="items">
+            <p>Espresso</p>
+            <p>Chocolate</p>
+            <p>Steamed Milk</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./imges/ice-latte.jpg" alt="" />
+          </div>
+          <div class="card-title">
+            <h1>Iced Latte</h1>
+          </div>
+          <div class="items">
+            <p>Espresso</p>
+            <p>Ice</p>
+            <p>Milk</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <div id="about" class="cafe-info">
+      <div class="footer-items">
+        <div class="container">
+          <h1 class="heading-info">About <span>Us</span></h1>
+          <ul>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Investors</a></li>
+            <li><a href="">Our Coffee</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <h1 class="heading-info">Contact</h1>
+          <ul>
+            <li>E-mail - info@spreecafe.de</li>
+            <li>Tel - 9876543210</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h1 class="heading-info">Opening <span>Hours</span></h1>
+          <ul>
+            <li>Mon - Fri 8:00 - 20:00</li>
+            <li>Sat - Sun 9:00 - 21:00</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="copyrights">&copy; 2024 Spree Café. All rights reserved.</p>
   </body>
   <script src="./script.js"></script>
 </html>
